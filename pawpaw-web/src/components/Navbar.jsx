@@ -2,10 +2,26 @@ import logo from '../assets/Img/logoSinLetra.png'
 
 export const Navbar = () => {
 
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.documentElement.scrollTop > 10) {
+        // document.getElementById("navbar").style.padding = "20px 10px";
+        document.getElementById("logo").style.height = "24px";
+        document.getElementById("logo").style.width = "30px";
+        document.getElementsByClassName("nav-link").style.fontSize = "14";
+      } else {
+        // document.getElementById("navbar").style.padding = "80px 10px";
+        document.getElementById("logo").style.height = "72px";
+        document.getElementById("logo").style.width = "90px";
+        document.getElementsByClassName("nav-link").style.fontSize = "20";
+      }
+    }
+
     return (
-        <nav className="navbar navbar-expand-lg bg-body-tertiary"  data-bs-theme="dark">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary" id='navbar'  data-bs-theme="dark">
             <div className="container-fluid">
-                <a className="navbar-brand" href='#'><img src={logo} alt="Logo" width="30" height="24" /> PawPaw</a>
+                <a className="navbar-brand" href='#'><img id='logo' src={logo} alt="Logo"  /> PawPaw</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
