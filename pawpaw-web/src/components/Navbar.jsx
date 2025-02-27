@@ -2,19 +2,19 @@ import logo from '../assets/Img/logoSinLetra.png'
 
 export const Navbar = () => {
 
-    window.onscroll = function() {scrollFunction()};
+    window.onscroll = () => {scrollFunction()};
 
-    function scrollFunction() {
+    const scrollFunction = () => {
       if (document.documentElement.scrollTop > 10) {
         // document.getElementById("navbar").style.padding = "20px 10px";
         document.getElementById("logo").style.height = "24px";
         document.getElementById("logo").style.width = "30px";
-        document.getElementsByClassName("nav-link").style.fontSize = "14";
+        // document.getElementsByClassName("nav-link").style.fontSize = "14";
       } else {
         // document.getElementById("navbar").style.padding = "80px 10px";
         document.getElementById("logo").style.height = "72px";
         document.getElementById("logo").style.width = "90px";
-        document.getElementsByClassName("nav-link").style.fontSize = "20";
+        // document.getElementsByClassName("nav-link").style.fontSize = "20";
       }
     }
 

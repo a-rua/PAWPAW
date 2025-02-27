@@ -1,9 +1,12 @@
+import { MainPage } from "./components/MainPage"
+import { Navbar } from "./components/Navbar"
 
 export const AppMain = () => {
 
     return (
-        <div className="container mx-1">
-            <h1>Main App</h1>
-        </div>
+        <>
+        <Navbar />
+        <MainPage />
+        </>
     )
 }

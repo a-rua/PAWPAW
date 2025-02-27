@@ -1,0 +1,76 @@
+/* .nav-item {
+    width: 100px;
+    text-align: center;
+    vertical-align: bottom;
+} */
+
+.navbar {
+    color: white;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    transition: 1s;
+    /* Adds a transition effect when the padding is decreased */
+}
+
+#logo {
+    width: "90";
+    height: "72";
+    transition: 1s;
+
+}
+
+
+.borde {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-color: white;
+
+}
+
+.imageContainer {
+    border: 2px solid black;
+    width: 100%;
+    height: 700px;
+}
+
+
+.body-card {
+    display: flex;
+    height: 150px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+.body-card card-image {
+    width: 200px;
+}
+
+.body-card card-col {
+    flex-direction: column;
+}
+
+.box {
+    border-right: 1px solid black;
+    width: 200px;
+    height: 150px;
+}
+
+.card-top {
+    font-size: 18px;
+    padding-left: 15px;
+    padding-top: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.card-bottom {
+    padding-left: 15px;
+    width: 100px;
+    height: 50px;
+
+}
+
+.card-bottom button {
+    text-align: right;
+}
