@@ -4,7 +4,7 @@ export const Footer = ({ logo }) => {
     return (
         <>
             <div className="footer-container">
-                <div className="cell">
+                <div className="cell1">
                     <h3>Contactanos</h3>
                     <ul>
                         <li>Telefono: +34 999 333 666</li>
@@ -22,7 +22,7 @@ export const Footer = ({ logo }) => {
                     <img src={logo} />
                     PAWPAW
                 </div>
-                <div className="cell">
+                <div className="cell3">
                     {/* <!-- Facebook --> */}
                     <i className="fab fa-facebook-f"></i>
 

@@ -106,7 +106,7 @@ body {
 }
 
 .contenedor-carousel .card-top {
-    font-size: 40px;
+    font-size: 39px;
     padding-left: 15px;
     padding-top: 20px;
     height: 80%;
@@ -169,11 +169,12 @@ body {
     font-size: 16px;
 }
 
-.footer-container .cell {
+.footer-container .cell1 {
     padding: 49px;
+    padding-left: 150px;
 }
 
-.footer-container .cell ul {
+.footer-container .cell1 ul {
     list-style-type: none;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
