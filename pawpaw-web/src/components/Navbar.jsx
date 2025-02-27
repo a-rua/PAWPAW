@@ -1,6 +1,6 @@
 import logo from '../assets/Img/logoSinLetra.png'
 
-export const Navbar = () => {
+export const Navbar = ({logo}) => {
 
     window.onscroll = () => {scrollFunction()};
 

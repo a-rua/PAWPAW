@@ -11,6 +11,7 @@ body {
 .bg-column {
     margin-left: 10%;
     margin-right: 10%;
+    /* margin-bottom: 5%; */
     background-color: #fffbf3;
 }
 
@@ -20,6 +21,7 @@ body {
     top: 0;
     padding: 10px;
     transition: 1s;
+    z-index: 9999;
     /* Adds a transition effect when the padding is decreased */
 }
 
@@ -41,13 +43,16 @@ body {
 .imageContainer {
     /* border: 2px solid black; */
     width: 100%;
-    height: 700px;
+    height: 600px;
 }
 
 .cont {
     padding: 5%;
+    margin-bottom: 5%;
 }
 
+
+/* CONTENEDOR CAROUSEL */
 
 .contenedor-carousel {
     max-width: 500px;
@@ -57,6 +62,9 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+
+/* INICIO CARTAS CAROUSEL */
 
 .contenedor-carousel .body-card {
     display: flex;
@@ -88,7 +96,7 @@ body {
     font-size: 18px;
     padding-left: 15px;
     padding-top: 20px;
-    height: auto; 
+    height: auto;
 }
 
 .contenedor-carousel .card-top .estado {
@@ -108,26 +116,118 @@ body {
     text-align: right;
 }
 
-.gridCard {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    row-gap: 30px;
-}
+
+/* FIN CARTAS CAROUSEL */
+/* FIN CAROUSEL */
+
+
+
+
 
 .about-container {
     width: 70%;
     text-align: center;
     margin-left: 15%;
     margin-right: 15%;
-
+    
 }
 
 .text-container {
     margin: 5%;
     margin-top: 50px;
-
+    
 }
 
 .text-container h1 {
     margin-bottom: 30px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    background-color: #212529;
+    color: #f8f9fa;
+    height: 300px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.footer-container .cell {
+    padding: 49px;
+}
+
+.footer-container .cell ul {
+    list-style-type: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.footer-container .cell-img {
+    padding-top: 28px;
+    padding-bottom: 10px;
+    padding-left: 49px;
+    padding-right: 49px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.footer-container .cell-img img {
+    text-align: center;
+}
+
+
+
+/* CARDS GRID */
+
+.gridCard {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 30px;
+    margin-top: 5%;
+}
+
+.gridCard .body-card {
+    height: 300px;
+    width: 200px;
+    border: 2px solid black;
+}
+
+.gridCard .card-image {
+    /* border: 1px solid blue; */
+    border-bottom: 2px solid black;
+    width: 100%;
+    height: 65%;
+}
+
+.gridCard .card-col {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+.gridCard .card-top {
+    height: 70%;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.gridCard .card-top .estado {
+    font-size: 15px;
+    color: gray;
+}
+
+.gridCard .card-bottom {
+    /* height: 40%; */
+    width: 100%;
+    align-self: flex-end;
+}
+
+.gridCard .card-bottom button {
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 5px;
 }

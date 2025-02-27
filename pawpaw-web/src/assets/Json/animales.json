@@ -66,7 +66,7 @@
       "id": 8,
       "nombre": "Arachne",
       "especie": "Araña",
-      "estado": "Adoptada",
+      "estado": "Adoptado",
       "imagen1": "../assets/Img/arachne1",
       "imagen2": "../assets/Img/arachne2",
       "imagen3": "../assets/Img/arachne3"
@@ -120,7 +120,7 @@
       "id": 14,
       "nombre": "Monty",
       "especie": "Tortuga",
-      "estado": "Adoptada",
+      "estado": "Adoptado",
       "imagen1": "../assets/Img/monty1",
       "imagen2": "../assets/Img/monty2",
       "imagen3": "../assets/Img/monty3"
@@ -246,7 +246,7 @@
       "id": 28,
       "nombre": "Ruby",
       "especie": "Perro",
-      "estado": "Adoptada",
+      "estado": "Adoptado",
       "imagen1": "../assets/Img/ruby1",
       "imagen2": "../assets/Img/ruby2",
       "imagen3": "../assets/Img/ruby3"

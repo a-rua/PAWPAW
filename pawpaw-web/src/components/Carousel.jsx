@@ -8,7 +8,7 @@ export const Carousel = () => {
 
     const animal = getAnimales()
 
-    
+
     let arr = [];
     while (arr.length < 5) {
         let r = Math.floor(Math.random() * 30) + 1;
@@ -27,19 +27,22 @@ export const Carousel = () => {
         return () => clearInterval(interval);
     }, []);
 
-
+    
     return (
-        <div className="contenedor-carousel">
-            {sel.map(({ id, nombre, estado, imagen1 }, index) => (
-                <div
-                    className="mySlides"
-                    key={id}
-                    style={{ display: index === slideIndex ? "block" : "none" }}
-                >
-                    <Card nombre={nombre} estado={estado} imagen1={imagen1} />
-                </div>
-            ))}
-        </div>
+        <>
+            <div className="contenedor-carousel">
+            <h1>Algunos de nuestros chicos</h1><br/>
+                {sel.map(({ id, nombre, estado, imagen1 }, index) => (
+                    <div
+                        className="mySlides"
+                        key={id}
+                        style={{ display: index === slideIndex ? "block" : "none" }}
+                    >
+                        <Card nombre={nombre} estado={estado} imagen1={imagen1} />
+                    </div>
+                ))}
+            </div>
+        </>
 
     );
 };
