@@ -1,4 +1,3 @@
-import { Card } from "./Card"
 import { Carousel } from "./Carousel"
 
 export const MainPage = () => {
@@ -7,7 +6,6 @@ export const MainPage = () => {
         <>
         <div className="imageContainer">IMG</div>
         <Carousel />
-        <Card />
         </>
     )
 }
