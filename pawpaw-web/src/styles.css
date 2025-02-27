@@ -34,49 +34,62 @@
     height: 700px;
 }
 
-
-.body-card {
+.contenedor-carousel {
+    max-width: 500px;
+    height: 250px;
+    position: relative;
+    margin: auto;
     display: flex;
-    height: 150px;
-    width: 300px;
-    border: 2px solid black;
-}
-
-.body-card card-image {
-    width: 200px;
-}
-
-.body-card card-col {
     flex-direction: column;
 }
 
-.box {
-    width: 200px;
-    height: 150px;
+.contenedor-carousel .body-card {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
 }
 
-.card-top {
+.contenedor-carousel .body-card .card-image {
+    width: 66%;
+    height: 100%;
+}
+
+.contenedor-carousel .body-card .card-col {
+    flex-direction: column;
+    width: 34%;
+    height: 100%;
+    display: flex;
+    flex-grow: 1;
+}
+
+.contenedor-carousel .box {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contenedor-carousel .card-top {
     font-size: 18px;
     padding-left: 15px;
     padding-top: 20px;
-    width: 100px;
-    height: 100px;
+    height: auto; 
 }
 
-.card-top .estado {
+.contenedor-carousel .card-top .estado {
     font-size: 10px;
     margin-top: 5px;
     color: gray;
 }
 
-.card-bottom {
+.contenedor-carousel .card-bottom {
     padding-left: 15px;
-    width: 100px;
-    height: 50px;
+    width: 100%;
+    height: auto;
 
 }
 
-.card-bottom button {
+.contenedor-carousel .card-bottom button {
     text-align: right;
 }
 
@@ -85,9 +98,3 @@
     grid-template-columns: auto auto auto auto;
     row-gap: 30px;
 }
-
-.contenedor-carousel {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-  }
