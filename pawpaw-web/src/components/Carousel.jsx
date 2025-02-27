@@ -7,18 +7,15 @@ import { CardGridDisplay } from "./CardGridDisplay";
 export const Carousel = () => {
 
     const animal = getAnimales()
-    console.log(animal);
 
+    
     let arr = [];
     while (arr.length < 5) {
         let r = Math.floor(Math.random() * 30) + 1;
         if (arr.indexOf(r) === -1) arr.push(r);
     }
-    console.log(arr);
 
     let sel = arr.map(num => animal[num - 1]); // Restamos 1 porque los índices comienzan en 0
-
-    console.log(sel);
 
     const [slideIndex, setSlideIndex] = useState(0);
 
@@ -29,7 +26,7 @@ export const Carousel = () => {
         const interval = setInterval(showSlides, 4000);
         return () => clearInterval(interval);
     }, []);
-    
+
 
     return (
         <div className="contenedor-carousel">

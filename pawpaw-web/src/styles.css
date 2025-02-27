@@ -4,6 +4,16 @@
     vertical-align: bottom;
 } */
 
+body {
+    background-color: blanchedalmond;
+}
+
+.bg-column {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #fffbf3;
+}
+
 .navbar {
     color: white;
     position: sticky;
@@ -16,7 +26,7 @@
 #logo {
     width: "90";
     height: "72";
-    transition: 1s;
+    transition: 0.3s;
 
 }
 
@@ -33,6 +43,11 @@
     width: 100%;
     height: 700px;
 }
+
+.cont {
+    padding: 5%;
+}
+
 
 .contenedor-carousel {
     max-width: 500px;
@@ -97,4 +112,22 @@
     display: grid;
     grid-template-columns: auto auto auto auto;
     row-gap: 30px;
+}
+
+.about-container {
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+.text-container {
+    margin: 5%;
+    margin-top: 50px;
+
+}
+
+.text-container h1 {
+    margin-bottom: 30px;
 }

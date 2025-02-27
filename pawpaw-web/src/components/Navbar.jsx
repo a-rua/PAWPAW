@@ -5,7 +5,7 @@ export const Navbar = () => {
     window.onscroll = () => {scrollFunction()};
 
     const scrollFunction = () => {
-      if (document.documentElement.scrollTop > 10) {
+      if (document.documentElement.scrollTop > 50) {
         // document.getElementById("navbar").style.padding = "20px 10px";
         document.getElementById("logo").style.height = "24px";
         document.getElementById("logo").style.width = "30px";
