@@ -14,8 +14,8 @@ export const AppMain = () => {
     return (
         <>
         <Navbar logo={logo} />
-        {/* <MainPage  /> */}
-        <AdoptPage />
+        <MainPage  />
+        {/* <AdoptPage /> */}
         {/* <HappyPage /> */}
         {/* <SadPage /> */}
         <Footer logo={logoBig}/>

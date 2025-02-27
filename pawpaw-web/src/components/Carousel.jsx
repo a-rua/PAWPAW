@@ -27,14 +27,14 @@ export const Carousel = () => {
         return () => clearInterval(interval);
     }, []);
 
-    
+
     return (
         <>
+            <h1>Algunos de nuestros chicos</h1><br />
             <div className="contenedor-carousel">
-            <h1>Algunos de nuestros chicos</h1><br/>
                 {sel.map(({ id, nombre, estado, imagen1 }, index) => (
                     <div
-                        className="mySlides"
+                        className={`mySlides ${index === slideIndex ? "show" : ""}`}
                         key={id}
                         style={{ display: index === slideIndex ? "block" : "none" }}
                     >

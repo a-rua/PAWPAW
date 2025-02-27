@@ -12,7 +12,7 @@ export const AdoptPage = () => {
         <>
             <div className="bg-column">
                 <div className="cont">
-                    <h1>Nuestros animales</h1>
+                    <h1>Nuestros animales disponibles</h1>
                 <CardGridDisplay animal={adoptables} />
                 </div>
             </div>

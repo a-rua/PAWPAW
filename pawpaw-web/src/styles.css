@@ -51,6 +51,10 @@ body {
     margin-bottom: 5%;
 }
 
+.cont h1 {
+    text-align: center;
+}
+
 
 /* CONTENEDOR CAROUSEL */
 
@@ -63,12 +67,22 @@ body {
     flex-direction: column;
 }
 
+.mySlides {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.mySlides.show {
+    opacity: 1;
+}
+
 
 /* INICIO CARTAS CAROUSEL */
 
 .contenedor-carousel .body-card {
+    background-color: white;
     display: flex;
-    height: 100%;
+    height: 250px;
     width: 100%;
     border: 2px solid black;
 }
@@ -79,11 +93,10 @@ body {
 }
 
 .contenedor-carousel .body-card .card-col {
-    flex-direction: column;
     width: 34%;
     height: 100%;
     display: flex;
-    flex-grow: 1;
+    flex-direction: column;
 }
 
 .contenedor-carousel .box {
@@ -93,27 +106,31 @@ body {
 }
 
 .contenedor-carousel .card-top {
-    font-size: 18px;
+    font-size: 40px;
     padding-left: 15px;
     padding-top: 20px;
-    height: auto;
+    height: 80%;
 }
 
 .contenedor-carousel .card-top .estado {
-    font-size: 10px;
+    font-size: 15px;
     margin-top: 5px;
+    padding-left: 2px;
     color: gray;
 }
 
 .contenedor-carousel .card-bottom {
     padding-left: 15px;
+    padding-right: 15px;
     width: 100%;
-    height: auto;
+    height: 20%;
 
 }
 
 .contenedor-carousel .card-bottom button {
-    text-align: right;
+    align-self: flex-end;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -190,6 +207,7 @@ body {
 }
 
 .gridCard .body-card {
+    background-color: white;
     height: 300px;
     width: 200px;
     border: 2px solid black;

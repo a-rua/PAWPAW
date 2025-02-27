@@ -12,7 +12,7 @@ export const SadPage = () => {
         <>
             <div className="bg-column">
                 <div className="cont">
-                    <h1>Nuestros animales</h1>
+                    <h1>Te echaremos de menos</h1>
                 <CardGridDisplay animal={morto} />
                 </div>
             </div>
