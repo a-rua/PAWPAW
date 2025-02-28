@@ -10,7 +10,7 @@ import { AdoptPage } from "./pages/AdoptPage"
 import { SadPage } from "./pages/SadPage"
 import { HappyPage } from "./pages/HappyPage"
 
-import { Route, Routes } from "react-router-dom"
+import { Navigate, Route, Routes } from "react-router-dom"
 
 
 export const AppMain = () => {
@@ -19,11 +19,11 @@ export const AppMain = () => {
         <>
             <Navbar logo={logo} />
             <Routes>
-                <Route path="/" element={<MainPage />} />
+                <Route path="/" element={<MainPage logo={logoBlack} />} />
                 <Route path="/disponible" element={<AdoptPage />} />
                 <Route path="/adoptados" element={<HappyPage />} />
                 <Route path="/perdidos" element={<SadPage />} />
-                <Route path="*" element={<MainPage />} />
+                <Route path="*" element={<Navigate to={"/"} />} />
             </Routes>
             <Footer logo={logoBig} />
         </>

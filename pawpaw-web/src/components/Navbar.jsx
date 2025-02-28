@@ -1,23 +1,9 @@
 import { NavLink } from 'react-router-dom';
-import logo from '../assets/Img/logoSinLetra.png'
+import useNavbar from '../hooks/useNavbar';
 
 export const Navbar = ({ logo }) => {
 
-    window.onscroll = () => { scrollFunction() };
-
-    const scrollFunction = () => {
-        if (document.documentElement.scrollTop > 50) {
-            // document.getElementById("navbar").style.padding = "20px 10px";
-            document.getElementById("logo").style.height = "24px";
-            document.getElementById("logo").style.width = "30px";
-            // document.getElementsByClassName("nav-link").style.fontSize = "14";
-        } else {
-            // document.getElementById("navbar").style.padding = "80px 10px";
-            document.getElementById("logo").style.height = "72px";
-            document.getElementById("logo").style.width = "90px";
-            // document.getElementsByClassName("nav-link").style.fontSize = "20";
-        }
-    }
+    useNavbar()
 
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary" id='navbar' data-bs-theme="dark">
