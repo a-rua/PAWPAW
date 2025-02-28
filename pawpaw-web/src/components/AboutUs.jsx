@@ -1,7 +1,7 @@
 
 import logo from '../assets/Img/pataPerro.png'
 
-export const AboutUs = () => {
+export const AboutUs = ({logo}) => {
 
     return (
         <div className="about-container">

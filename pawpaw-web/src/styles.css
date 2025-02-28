@@ -250,3 +250,15 @@ body {
     margin-right: 10px;
     margin-bottom: 5px;
 }
+
+/* CARD FIN */
+
+/* CARD PLACEHOLDER */
+
+.card-image .box {
+    background-image: url('assets/Img/pataPerro.png');
+    background-size: cover;
+    height: 100%;
+    /* width: 100%; */
+    
+}

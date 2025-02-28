@@ -1,13 +1,13 @@
 import { getAnimales } from "../services/animalService"
-import { CardGridDisplay } from "./CardGridDisplay"
+import { CardGridDisplay } from "../components/CardGridDisplay"
 
 export const SadPage = () => {
 
     const animal = getAnimales()
 
     const morto = animal.filter(a => a.estado === 'Perdida')
-    console.log(morto)
 
+    
     return (
         <>
             <div className="bg-column">

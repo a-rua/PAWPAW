@@ -1,9 +1,9 @@
-import { AboutUs } from "./AboutUs"
-import { Carousel } from "./Carousel"
+import { AboutUs } from "../components/AboutUs"
+import { Carousel } from "../components/Carousel"
 
 
 
-export const MainPage = () => {
+export const MainPage = ({logo}) => {
 
     return (
         <>
@@ -11,7 +11,7 @@ export const MainPage = () => {
             <div className="bg-column">
                 <div className="cont">
                 <Carousel />
-                <AboutUs />
+                <AboutUs logo={logo} />
                 </div>
             </div>
         </>
