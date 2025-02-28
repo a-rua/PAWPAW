@@ -256,9 +256,6 @@ body {
     grid-template-columns: 33% 34% 33%;
     background-color: #212529;
     color: #f8f9fa;
-    height: 300px;
-    width: 100%;
-    font-size: 16px;
 }
 
 .footer-container .cell1 {

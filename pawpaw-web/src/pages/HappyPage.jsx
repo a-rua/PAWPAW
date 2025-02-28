@@ -5,7 +5,7 @@ export const HappyPage = () => (
     <>
         <div className="bg-column">
             <div className="cont">
-                <h1>Nuestros animales afortunados</h1>
+                <h1>Los antiguos afortunados</h1>
                 <CardGridDisplay animal={getAdoptados()} />
             </div>
         </div>
