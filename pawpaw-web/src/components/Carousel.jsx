@@ -10,8 +10,8 @@ export const Carousel = () => {
         <>
             <h1>Algunos de nuestros chicos</h1><br />
             <div className="contenedor-carousel">
-                {sel.map(({ id, nombre, estado, imagen1 }, index) => (
-                    <SlidesCarousel key={id} nombre={nombre} estado={estado} imagen1={imagen1} index={index} slideIndex={slideIndex} />
+                {sel.map((sel, index) => (
+                    <SlidesCarousel key={sel.id} animal={sel} index={index} slideIndex={slideIndex} />
                 ))}
             </div>
         </>

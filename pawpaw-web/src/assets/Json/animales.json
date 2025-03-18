@@ -4,6 +4,7 @@
       "nombre": "Juan",
       "especie": "Perro",
       "estado": "Disponible",
+      "descripcion": "desc",
       "imagen1": "../assets/Img/juan1",
       "imagen2": "../assets/Img/juan2",
       "imagen3": "../assets/Img/juan3"
@@ -13,6 +14,7 @@
       "nombre": "Pedro",
       "especie": "Mapache",
       "estado": "Adoptado",
+      "descripcion": "desc",
       "imagen1": "../assets/Img/pedro1",
       "imagen2": "../assets/Img/pedro2",
       "imagen3": "../assets/Img/pedro3"
@@ -22,6 +24,7 @@
       "nombre": "Lacoste",
       "especie": "Cocodrilo",
       "estado": "Disponible",
+      "descripcion": "desc",
       "imagen1": "../assets/Img/lacoste1",
       "imagen2": "../assets/Img/lacoste2",
       "imagen3": "../assets/Img/lacoste3"
@@ -31,6 +34,7 @@
       "nombre": "Merkat",
       "especie": "Zariguella",
       "estado": "Perdida",
+      "descripcion": "desc",
       "imagen1": "../assets/Img/merkat1",
       "imagen2": "../assets/Img/merkat2",
       "imagen3": "../assets/Img/merkat3"
@@ -40,6 +44,7 @@
       "nombre": "Capibara",
       "especie": "Capibara",
       "estado": "Disponible",
+      "descripcion": "desc",
       "imagen1": "../assets/Img/chispa1",
       "imagen2": "../assets/Img/chispa2",
       "imagen3": "../assets/Img/chispa3"
@@ -49,6 +54,7 @@
       "nombre": "Peko",
       "especie": "Erizo",
       "estado": "Disponible",
+      "descripcion": "desc",
       "imagen1": "../assets/Img/puas1",
       "imagen2": "../assets/Img/puas2",
       "imagen3": "../assets/Img/puas3"
@@ -58,6 +64,7 @@
       "nombre": "Sasha",
       "especie": "Serpiente",
       "estado": "Disponible",
+      "descripcion": "desc",
       "imagen1": "../assets/Img/sasha1",
       "imagen2": "../assets/Img/sasha2",
       "imagen3": "../assets/Img/sasha3"
@@ -67,6 +74,7 @@
       "nombre": "Arachne",
       "especie": "Araña",
       "estado": "Adoptado",
+      "descripcion": "desc",
       "imagen1": "../assets/Img/arachne1",
       "imagen2": "../assets/Img/arachne2",
       "imagen3": "../assets/Img/arachne3"
@@ -76,6 +84,7 @@
       "nombre": "Zeus",
       "especie": "Serpiente",
       "estado": "Disponible",
+      "descripcion": "desc",
       "imagen1": "../assets/Img/zeus1",
       "imagen2": "../assets/Img/zeus2",
       "imagen3": "../assets/Img/zeus3"
@@ -85,6 +94,7 @@
       "nombre": "Rocco",
       "especie": "Hámster",
       "estado": "Disponible",
+      "descripcion": "desc",
       "imagen1": "../assets/Img/rocco1",
       "imagen2": "../assets/Img/rocco2",
       "imagen3": "../assets/Img/rocco3"
@@ -94,6 +104,7 @@
       "nombre": "Kiko",
       "especie": "Pájaro",
       "estado": "Adoptado",
+      "descripcion": "desc",
       "imagen1": "../assets/Img/kiko1",
       "imagen2": "../assets/Img/kiko2",
       "imagen3": "../assets/Img/kiko3"
@@ -103,6 +114,7 @@
       "nombre": "Luna",
       "especie": "Gato",
       "estado": "Disponible",
+      "descripcion": "desc",
       "imagen1": "../assets/Img/luna1",
       "imagen2": "../assets/Img/luna2",
       "imagen3": "../assets/Img/luna3"
@@ -112,6 +124,7 @@
       "nombre": "Flora",
       "especie": "Conejo",
       "estado": "Disponible",
+      "descripcion": "desc",
       "imagen1": "../assets/Img/flora1",
       "imagen2": "../assets/Img/flora2",
       "imagen3": "../assets/Img/flora3"
@@ -121,6 +134,7 @@
       "nombre": "Monty",
       "especie": "Tortuga",
       "estado": "Adoptado",
+      "descripcion": "desc",
       "imagen1": "../assets/Img/monty1",
       "imagen2": "../assets/Img/monty2",
       "imagen3": "../assets/Img/monty3"
@@ -130,6 +144,7 @@
       "nombre": "Bella",
       "especie": "Perro",
       "estado": "Disponible",
+      "descripcion": "desc",
       "imagen1": "../assets/Img/bella1",
       "imagen2": "../assets/Img/bella2",
       "imagen3": "../assets/Img/bella3"
@@ -139,6 +154,7 @@
       "nombre": "Mauricio",
       "especie": "Ratón",
       "estado": "Adoptado",
+      "descripcion": "desc",
       "imagen1": "../assets/Img/jasper1",
       "imagen2": "../assets/Img/jasper2",
       "imagen3": "../assets/Img/jasper3"
@@ -148,6 +164,7 @@
       "nombre": "Penny",
       "especie": "Cebra",
       "estado": "Disponible",
+      "descripcion": "desc",
       "imagen1": "../assets/Img/penny1",
       "imagen2": "../assets/Img/penny2",
       "imagen3": "../assets/Img/penny3"
@@ -157,6 +174,7 @@
       "nombre": "Nina",
       "especie": "Loro",
       "estado": "Disponible",
+      "descripcion": "desc",
       "imagen1": "../assets/Img/nina1",
       "imagen2": "../assets/Img/nina2",
       "imagen3": "../assets/Img/nina3"
@@ -166,6 +184,7 @@
       "nombre": "Thor",
       "especie": "Iguana",
       "estado": "Adoptado",
+      "descripcion": "desc",
       "imagen1": "../assets/Img/thor1",
       "imagen2": "../assets/Img/thor2",
       "imagen3": "../assets/Img/thor3"
@@ -175,6 +194,7 @@
       "nombre": "Zoe",
       "especie": "Conejo",
       "estado": "Disponible",
+      "descripcion": "desc",
       "imagen1": "../assets/Img/zoe1",
       "imagen2": "../assets/Img/zoe2",
       "imagen3": "../assets/Img/zoe3"
@@ -184,6 +204,7 @@
       "nombre": "Oscar",
       "especie": "Perro",
       "estado": "Adoptado",
+      "descripcion": "desc",
       "imagen1": "../assets/Img/oscar1",
       "imagen2": "../assets/Img/oscar2",
       "imagen3": "../assets/Img/oscar3"
@@ -193,6 +214,7 @@
       "nombre": "Simba",
       "especie": "León",
       "estado": "Disponible",
+      "descripcion": "desc",
       "imagen1": "../assets/Img/simba1",
       "imagen2": "../assets/Img/simba2",
       "imagen3": "../assets/Img/simba3"
@@ -202,6 +224,7 @@
       "nombre": "Tina",
       "especie": "Canguro",
       "estado": "Disponible",
+      "descripcion": "desc",
       "imagen1": "../assets/Img/tina1",
       "imagen2": "../assets/Img/tina2",
       "imagen3": "../assets/Img/tina3"
@@ -211,6 +234,7 @@
       "nombre": "Flavio",
       "especie": "Pato",
       "estado": "Disponible",
+      "descripcion": "desc",
       "imagen1": "../assets/Img/flavio1",
       "imagen2": "../assets/Img/flavio2",
       "imagen3": "../assets/Img/flavio3"
@@ -220,6 +244,7 @@
       "nombre": "Eleanor",
       "especie": "Hurón",
       "estado": "Disponible",
+      "descripcion": "desc",
       "imagen1": "../assets/Img/eleanor1",
       "imagen2": "../assets/Img/eleanor2",
       "imagen3": "../assets/Img/eleanor3"
@@ -229,6 +254,7 @@
       "nombre": "Basil",
       "especie": "Tortuga",
       "estado": "Adoptado",
+      "descripcion": "desc",
       "imagen1": "../assets/Img/basil1",
       "imagen2": "../assets/Img/basil2",
       "imagen3": "../assets/Img/basil3"
@@ -238,6 +264,7 @@
       "nombre": "Maya",
       "especie": "Gato",
       "estado": "Disponible",
+      "descripcion": "desc",
       "imagen1": "../assets/Img/maya1",
       "imagen2": "../assets/Img/maya2",
       "imagen3": "../assets/Img/maya3"
@@ -247,6 +274,7 @@
       "nombre": "Ruby",
       "especie": "Perro",
       "estado": "Adoptado",
+      "descripcion": "desc",
       "imagen1": "../assets/Img/ruby1",
       "imagen2": "../assets/Img/ruby2",
       "imagen3": "../assets/Img/ruby3"
@@ -256,6 +284,7 @@
       "nombre": "Rex",
       "especie": "Gato",
       "estado": "Disponible",
+      "descripcion": "desc",
       "imagen1": "../assets/Img/rex1",
       "imagen2": "../assets/Img/rex2",
       "imagen3": "../assets/Img/rex3"
@@ -265,6 +294,7 @@
       "nombre": "Rocky",
       "especie": "Perro",
       "estado": "Adoptado",
+      "descripcion": "desc",
       "imagen1": "../assets/Img/rocky1",
       "imagen2": "../assets/Img/rocky2",
       "imagen3": "../assets/Img/rocky3"

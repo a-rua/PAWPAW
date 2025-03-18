@@ -175,6 +175,10 @@ body {
     grid-template-columns: auto auto auto auto;
     row-gap: 30px;
     margin-top: 5%;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
 }
 
 .gridCard .body-card {
@@ -286,3 +290,53 @@ body {
 }
 
 /* FIN FOOTER */
+
+/* PAGINA DETALLE INICIO */
+
+#noData {
+    color: red;
+}
+
+#detailsContainer {
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    display: flex;
+    /* margin-top: 100px; */
+    margin-bottom: 250px;
+}
+
+#detailsImagen {
+    justify-content: left;
+    width: 65%;
+
+    background-color: blue;
+}
+
+#detailsColumn {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+#detailsTitle {
+    padding-left: 7px;
+    padding-top: 10px;
+    height: 20%;
+   
+}
+
+#detailsEspecie {
+    padding-left: 5px;
+    color: rgb(103, 103, 103)
+}
+
+#detailsDesc {
+    height: 60%;
+    padding-left: 7px;
+}
+
+#detailsButton {
+    width: 90%;
+    align-items: center;
+}
