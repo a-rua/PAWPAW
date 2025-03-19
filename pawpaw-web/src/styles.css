@@ -1,8 +1,11 @@
 /* MARGENES IZQUIERDA DERECHA */
 
 
-body {
-    background-color: blanchedalmond;
+html, body {
+    background-color: #ffd991;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .bg-column {
@@ -298,8 +301,18 @@ a {
 
 /* PAGINA DETALLE INICIO */
 
+
 #noData {
     color: red;
+}
+
+#detailsBody {
+    background-color: #ffd991; 
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #detailsContainer {
@@ -309,13 +322,27 @@ a {
     display: flex;
     /* margin-top: 100px; */
     margin-bottom: 250px;
+    margin-left: 25px;
+    margin-right: 50px;
+    margin-top: 20px;
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 #detailsImagen {
     justify-content: left;
     width: 65%;
+    margin-right: 15px;
 
     background-color: blue;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+#detailsImagen img {
+    justify-content: center;
+    
 }
 
 #detailsColumn {
@@ -326,7 +353,7 @@ a {
 
 #detailsTitle {
     padding-left: 7px;
-    padding-top: 10px;
+    padding-top: 20px;
     height: 20%;
    
 }
@@ -337,22 +364,22 @@ a {
 }
 
 #detailsDesc {
-    height: 70%;
+    height: 60%;
     padding-left: 12px;
     padding-top: 20px;
     margin-right: 10%;
 }
 
 #detailsButton  {
-    
-    height: 10%;
-
+    height: 20%;
     
 }
 
 #detailsButton button {
     width: 90%;
-    height: 100%;
+    height: 50%;
     align-items: center;
+    margin-top: 30px;
+    margin-left: 15px
     
 }

@@ -10,28 +10,30 @@ export const DetailsPage = () => {
         return (<>
             <h1 id="noData">NO SE HA ENCONTRADO LA ID</h1>
             setTimeout(<Navigate to={'/'} />, 3000)
-            {/* console.log(location) */}
         </>)
     }
 
+
     return (
         <>
-            <div id="detailsContainer">
-                <div id="detailsImagen">
-                    <img src={animal.imagen1} />
-                </div>
-                <div id="detailsColumn">
-                    <div id="detailsTitle">
-                        <h1>{animal.nombre}</h1>
-                        <div id="detailsEspecie">
-                            {animal.especie}
+            <div id="detailsBody">
+                <div id="detailsContainer">
+                    <div id="detailsImagen">
+                        <img src={animal.imagen1} />
+                    </div>
+                    <div id="detailsColumn">
+                        <div id="detailsTitle">
+                            <h1>{animal.nombre}</h1>
+                            <div id="detailsEspecie">
+                                {animal.especie}
+                            </div>
                         </div>
-                    </div>
-                    <div id="detailsDesc">
-                        {animal.descripcion}
-                    </div>
-                    <div id="detailsButton">
-                        <button className="btn bg-warning">Contactanos</button>
+                        <div id="detailsDesc">
+                            {animal.descripcion}
+                        </div>
+                        <div id="detailsButton">
+                            <button className="btn btn-dark">Contactanos</button>
+                        </div>
                     </div>
                 </div>
             </div>
