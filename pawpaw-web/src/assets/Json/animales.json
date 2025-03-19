@@ -2,9 +2,9 @@
     {
       "id": 1,
       "nombre": "Juan",
-      "especie": "Perro",
+      "especie": "Caballo",
       "estado": "Disponible",
-      "descripcion": "desc",
+      "descripcion": "Un agradable caballo al cual le gusta mirar la calle desde las alturas, no es especialmente cariñoso pero tampoco arisco.",
       "imagen1": "../assets/Img/juan1",
       "imagen2": "../assets/Img/juan2",
       "imagen3": "../assets/Img/juan3"
@@ -14,7 +14,7 @@
       "nombre": "Pedro",
       "especie": "Mapache",
       "estado": "Adoptado",
-      "descripcion": "desc",
+      "descripcion": "Un mapache bailarin, es todo un fiestero, le gusta la musica tecno y bailar alzando las manos.",
       "imagen1": "../assets/Img/pedro1",
       "imagen2": "../assets/Img/pedro2",
       "imagen3": "../assets/Img/pedro3"
@@ -24,7 +24,7 @@
       "nombre": "Lacoste",
       "especie": "Cocodrilo",
       "estado": "Disponible",
-      "descripcion": "desc",
+      "descripcion": "El chico mas cariñoso de la protectora, pero no le gusta que le toquen la boca y a veces muerde en sueños.",
       "imagen1": "../assets/Img/lacoste1",
       "imagen2": "../assets/Img/lacoste2",
       "imagen3": "../assets/Img/lacoste3"
@@ -34,7 +34,7 @@
       "nombre": "Merkat",
       "especie": "Zariguella",
       "estado": "Perdida",
-      "descripcion": "desc",
+      "descripcion": "Se acercó demasiado a Lacoste mientras dormia, descansa en paz.",
       "imagen1": "../assets/Img/merkat1",
       "imagen2": "../assets/Img/merkat2",
       "imagen3": "../assets/Img/merkat3"
@@ -44,7 +44,7 @@
       "nombre": "Capibara",
       "especie": "Capibara",
       "estado": "Disponible",
-      "descripcion": "desc",
+      "descripcion": "El mejor amigo de Lacoste, les gusta tumbarse juntos a tomar el sol y descansar, es muy majo.",
       "imagen1": "../assets/Img/chispa1",
       "imagen2": "../assets/Img/chispa2",
       "imagen3": "../assets/Img/chispa3"

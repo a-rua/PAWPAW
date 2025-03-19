@@ -9,7 +9,7 @@ export const DetailsPage = () => {
     if (!animal) {
         return (<>
             <h1 id="noData">NO SE HA ENCONTRADO LA ID</h1>
-                setTimeout(<Navigate to={'/'} />, 3000)
+            setTimeout(<Navigate to={'/'} />, 3000)
             {/* console.log(location) */}
         </>)
     }
@@ -18,7 +18,7 @@ export const DetailsPage = () => {
         <>
             <div id="detailsContainer">
                 <div id="detailsImagen">
-
+                    <img src={animal.imagen1} />
                 </div>
                 <div id="detailsColumn">
                     <div id="detailsTitle">
@@ -30,7 +30,9 @@ export const DetailsPage = () => {
                     <div id="detailsDesc">
                         {animal.descripcion}
                     </div>
-                    <button className="btn bg-warning" id="detailsButton">Contactanos</button>
+                    <div id="detailsButton">
+                        <button className="btn bg-warning">Contactanos</button>
+                    </div>
                 </div>
             </div>
         </>

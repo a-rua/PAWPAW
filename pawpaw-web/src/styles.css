@@ -108,6 +108,11 @@ body {
     
 }
 
+a {
+    text-decoration: none;
+    color: inherit
+}
+
 /* INICIO CARTAS CAROUSEL */
 
 
@@ -332,11 +337,22 @@ body {
 }
 
 #detailsDesc {
-    height: 60%;
-    padding-left: 7px;
+    height: 70%;
+    padding-left: 12px;
+    padding-top: 20px;
+    margin-right: 10%;
 }
 
-#detailsButton {
+#detailsButton  {
+    
+    height: 10%;
+
+    
+}
+
+#detailsButton button {
     width: 90%;
+    height: 100%;
     align-items: center;
+    
 }
