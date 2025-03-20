@@ -12,7 +12,8 @@ export const useCarousel = () => {
             let r = Math.floor(Math.random() * 30) + 1;
             if (!arr.includes(r)) arr.push(r);
         }
-        setSel(arr.map(num => animal[num - 1]));
+        const duplicatedImages = [...arr.map(num => animal[num - 1]), ...arr.map(num => animal[num - 1])];
+        setSel(duplicatedImages);
     }, [animal]);
 
     useEffect(() => {

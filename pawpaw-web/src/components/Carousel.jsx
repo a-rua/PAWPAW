@@ -10,9 +10,11 @@ export const Carousel = () => {
         <>
             <h1>Algunos de nuestros chicos</h1><br />
             <div className="contenedor-carousel">
-                {sel.map((sel, index) => (
-                    <SlidesCarousel key={sel.id} animal={sel} index={index} slideIndex={slideIndex} />
-                ))}
+                <div className={`cambios-carousel ${slideIndex === 0 ? "transitioning" : ""}`} style={{transform: `translateX(${-slideIndex * 100}%)`}}>
+                    {sel.map((sel, index) => (
+                        <SlidesCarousel key={`${sel.id}-${index}`} animal={sel} index={index} slideIndex={slideIndex} />
+                    ))}
+                </div>
             </div>
         </>
     );
