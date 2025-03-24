@@ -33,7 +33,7 @@ export const Navbar = ({ logo }) => {
                             </NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link active mx-1">
+                            <NavLink to={'/login'} className="nav-link active mx-1">
                                 Login
                             </NavLink>
                         </li>
