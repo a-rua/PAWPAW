@@ -45,9 +45,9 @@
     "especie": "Capibara",
     "estado": "Disponible",
     "descripcion": "El mejor amigo de Lacoste, les gusta tumbarse juntos a tomar el sol y descansar, es muy majo.",
-    "imagen1": "/Img/chispa1.jpg",
-    "imagen2": "/Img/chispa2.jpg",
-    "imagen3": "/Img/chispa3.jpg"
+    "imagen1": "/Img/capibara1.jpg",
+    "imagen2": "/Img/capibara2.jpg",
+    "imagen3": "/Img/capibara3.jpg"
   },
   {
     "id": 6,
@@ -111,13 +111,13 @@
   },
   {
     "id": 12,
-    "nombre": "Luna",
-    "especie": "Gato",
+    "nombre": "Harambiño",
+    "especie": "Macaco",
     "estado": "Disponible",
     "descripcion": "desc",
-    "imagen1": "/Img/luna1.jpg",
-    "imagen2": "/Img/luna2.jpg",
-    "imagen3": "/Img/luna3.jpg"
+    "imagen1": "/Img/harambiño1.jpg",
+    "imagen2": "/Img/harambiño2.jpg",
+    "imagen3": "/Img/harambiño3.jpg"
   },
   {
     "id": 13,
@@ -231,13 +231,13 @@
   },
   {
     "id": 24,
-    "nombre": "Flavio",
+    "nombre": "Carlomagno",
     "especie": "Pato",
     "estado": "Disponible",
     "descripcion": "desc",
-    "imagen1": "/Img/flavio1.jpg",
-    "imagen2": "/Img/flavio2.jpg",
-    "imagen3": "/Img/flavio3.jpg"
+    "imagen1": "/Img/carlomagno1.jpg",
+    "imagen2": "/Img/carlomagno2.jpg",
+    "imagen3": "/Img/carlomagno3.jpg"
   },
   {
     "id": 25,
@@ -271,13 +271,13 @@
   },
   {
     "id": 28,
-    "nombre": "Ruby",
+    "nombre": "Walter",
     "especie": "Perro",
     "estado": "Adoptado",
     "descripcion": "desc",
-    "imagen1": "/Img/ruby1.jpg",
-    "imagen2": "/Img/ruby2.jpg",
-    "imagen3": "/Img/ruby3.jpg"
+    "imagen1": "/Img/walter1.jpg",
+    "imagen2": "/Img/walter2.jpg",
+    "imagen3": "/Img/walter3.jpg"
   },
   {
     "id": 29,

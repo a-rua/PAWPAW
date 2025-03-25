@@ -244,12 +244,12 @@
     },
     {
       "id": 28,
-      "nombre": "Ruby",
+      "nombre": "Walter",
       "especie": "Perro",
       "estado": "Adoptada",
-      "imagen1": "../assets/Img/ruby1",
-      "imagen2": "../assets/Img/ruby2",
-      "imagen3": "../assets/Img/ruby3"
+      "imagen1": "../assets/Img/walter1",
+      "imagen2": "../assets/Img/walter2",
+      "imagen3": "../assets/Img/walter3"
     },
     {
       "id": 29,
