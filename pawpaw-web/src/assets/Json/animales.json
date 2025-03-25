@@ -55,9 +55,9 @@
     "especie": "Erizo",
     "estado": "Disponible",
     "descripcion": "desc",
-    "imagen1": "/Img/puas1.jpg",
-    "imagen2": "/Img/puas2.jpg",
-    "imagen3": "/Img/puas3.jpg"
+    "imagen1": "/Img/peko1.jpg",
+    "imagen2": "/Img/peko2.jpg",
+    "imagen3": "/Img/peko3.jpg"
   },
   {
     "id": 7,
@@ -81,13 +81,13 @@
   },
   {
     "id": 9,
-    "nombre": "Zeus",
-    "especie": "Serpiente",
+    "nombre": "Rocky",
+    "especie": "Piedra",
     "estado": "Disponible",
     "descripcion": "desc",
-    "imagen1": "/Img/zeus1.jpg",
-    "imagen2": "/Img/zeus2.jpg",
-    "imagen3": "/Img/zeus3.jpg"
+    "imagen1": "/Img/rocky1.jpg",
+    "imagen2": "/Img/rocky2.jpg",
+    "imagen3": "/Img/rocky3.jpg"
   },
   {
     "id": 10,
@@ -141,23 +141,23 @@
   },
   {
     "id": 15,
-    "nombre": "Bella",
-    "especie": "Perro",
+    "nombre": "Fermin",
+    "especie": "Caballito de mar",
     "estado": "Disponible",
     "descripcion": "desc",
-    "imagen1": "/Img/bella1.jpg",
-    "imagen2": "/Img/bella2.jpg",
-    "imagen3": "/Img/bella3.jpg"
+    "imagen1": "/Img/fermin1.jpg",
+    "imagen2": "/Img/fermin2.jpg",
+    "imagen3": "/Img/fermin3.jpg"
   },
   {
     "id": 16,
-    "nombre": "Mauricio",
+    "nombre": "Mariano",
     "especie": "Ratón",
     "estado": "Adoptado",
     "descripcion": "desc",
-    "imagen1": "/Img/jasper1.jpg",
-    "imagen2": "/Img/jasper2.jpg",
-    "imagen3": "/Img/jasper3.jpg"
+    "imagen1": "/Img/mariano1.jpg",
+    "imagen2": "/Img/mariano2.jpg",
+    "imagen3": "/Img/mariano3.jpg"
   },
   {
     "id": 17,
@@ -251,13 +251,13 @@
   },
   {
     "id": 26,
-    "nombre": "Basil",
-    "especie": "Tortuga",
+    "nombre": "Gustavo",
+    "especie": "Rana",
     "estado": "Adoptado",
     "descripcion": "desc",
-    "imagen1": "/Img/basil1.jpg",
-    "imagen2": "/Img/basil2.jpg",
-    "imagen3": "/Img/basil3.jpg"
+    "imagen1": "/Img/gustavo1.jpg",
+    "imagen2": "/Img/gustavo2.jpg",
+    "imagen3": "/Img/gustavo3.jpg"
   },
   {
     "id": 27,
@@ -291,12 +291,12 @@
   },
   {
     "id": 30,
-    "nombre": "Rocky",
+    "nombre": "Zeus",
     "especie": "Perro",
     "estado": "Adoptado",
     "descripcion": "desc",
-    "imagen1": "/Img/rocky1.jpg",
-    "imagen2": "/Img/rocky2.jpg",
-    "imagen3": "/Img/rocky3.jpg"
+    "imagen1": "/Img/zeus1.jpg",
+    "imagen2": "/Img/zeus2.jpg",
+    "imagen3": "/Img/zeus3.jpg"
   }
 ]

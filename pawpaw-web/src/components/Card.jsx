@@ -12,9 +12,13 @@ export const Card = ({ animal }) => (
             <div className="card-top">{animal.nombre}
                 <div className="estado">{animal.estado}</div>
             </div>
-            <div className="card-bottom"><button className="btn btn-dark">
-                <NavLink to={`/detalle/${animal.id}`} state={{ animal }} >Ver Mas </NavLink>
-                </button></div>
+            <div className="card-bottom">
+                <NavLink to={`/detalle/${animal.id}`} state={{ animal }} >
+                    <button className="btn btn-dark">
+                        Ver Mas
+                    </button>
+                </NavLink>
+            </div>
         </div>
-    </div>
+    </div >
 )
