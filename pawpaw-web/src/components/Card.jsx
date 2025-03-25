@@ -5,6 +5,7 @@ export const Card = ({ animal }) => (
         <div className="card-image">
             <div className="box">
                 <img src={animal.imagen1} />
+                {console.log(animal.imagen1)}
             </div>
         </div>
         <div className="card-col">

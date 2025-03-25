@@ -1,303 +1,302 @@
 [
-    {
-      "id": 1,
-      "nombre": "Juan",
-      "especie": "Caballo",
-      "estado": "Disponible",
-      "descripcion": "Un agradable caballo al cual le gusta mirar la calle desde las alturas, no es especialmente cariñoso pero tampoco arisco.",
-      "imagen1": "../assets/Img/juan1",
-      "imagen2": "../assets/Img/juan2",
-      "imagen3": "../assets/Img/juan3"
-    },
-    {
-      "id": 2,
-      "nombre": "Pedro",
-      "especie": "Mapache",
-      "estado": "Adoptado",
-      "descripcion": "Un mapache bailarin, es todo un fiestero, le gusta la musica tecno y bailar alzando las manos.",
-      "imagen1": "../assets/Img/pedro1",
-      "imagen2": "../assets/Img/pedro2",
-      "imagen3": "../assets/Img/pedro3"
-    },
-    {
-      "id": 3,
-      "nombre": "Lacoste",
-      "especie": "Cocodrilo",
-      "estado": "Disponible",
-      "descripcion": "El chico mas cariñoso de la protectora, pero no le gusta que le toquen la boca y a veces muerde en sueños.",
-      "imagen1": "../assets/Img/lacoste1",
-      "imagen2": "../assets/Img/lacoste2",
-      "imagen3": "../assets/Img/lacoste3"
-    },
-    {
-      "id": 4,
-      "nombre": "Merkat",
-      "especie": "Zariguella",
-      "estado": "Perdida",
-      "descripcion": "Se acercó demasiado a Lacoste mientras dormia, descansa en paz.",
-      "imagen1": "../assets/Img/merkat1",
-      "imagen2": "../assets/Img/merkat2",
-      "imagen3": "../assets/Img/merkat3"
-    },
-    {
-      "id": 5,
-      "nombre": "Capibara",
-      "especie": "Capibara",
-      "estado": "Disponible",
-      "descripcion": "El mejor amigo de Lacoste, les gusta tumbarse juntos a tomar el sol y descansar, es muy majo.",
-      "imagen1": "../assets/Img/chispa1",
-      "imagen2": "../assets/Img/chispa2",
-      "imagen3": "../assets/Img/chispa3"
-    },
-    {
-      "id": 6,
-      "nombre": "Peko",
-      "especie": "Erizo",
-      "estado": "Disponible",
-      "descripcion": "desc",
-      "imagen1": "../assets/Img/puas1",
-      "imagen2": "../assets/Img/puas2",
-      "imagen3": "../assets/Img/puas3"
-    },
-    {
-      "id": 7,
-      "nombre": "Sasha",
-      "especie": "Serpiente",
-      "estado": "Disponible",
-      "descripcion": "La chica mimada de la protectora, a veces se pierde, pero en ese caso lo mejor es mirar dentro del baño. Le gustan los besos, a veces con dientes, y sobretodo le gustan los abrazos alrededor del cuello.",
-      "imagen1": "../assets/Img/sasha1",
-      "imagen2": "../assets/Img/sasha2",
-      "imagen3": "../assets/Img/sasha3"
-    },
-    {
-      "id": 8,
-      "nombre": "Arachne",
-      "especie": "Araña",
-      "estado": "Adoptado",
-      "descripcion": "desc",
-      "imagen1": "../assets/Img/arachne1",
-      "imagen2": "../assets/Img/arachne2",
-      "imagen3": "../assets/Img/arachne3"
-    },
-    {
-      "id": 9,
-      "nombre": "Zeus",
-      "especie": "Serpiente",
-      "estado": "Disponible",
-      "descripcion": "desc",
-      "imagen1": "../assets/Img/zeus1",
-      "imagen2": "../assets/Img/zeus2",
-      "imagen3": "../assets/Img/zeus3"
-    },
-    {
-      "id": 10,
-      "nombre": "Rocco",
-      "especie": "Hámster",
-      "estado": "Disponible",
-      "descripcion": "desc",
-      "imagen1": "../assets/Img/rocco1",
-      "imagen2": "../assets/Img/rocco2",
-      "imagen3": "../assets/Img/rocco3"
-    },
-    {
-      "id": 11,
-      "nombre": "Kiko",
-      "especie": "Pájaro",
-      "estado": "Adoptado",
-      "descripcion": "desc",
-      "imagen1": "../assets/Img/kiko1",
-      "imagen2": "../assets/Img/kiko2",
-      "imagen3": "../assets/Img/kiko3"
-    },
-    {
-      "id": 12,
-      "nombre": "Luna",
-      "especie": "Gato",
-      "estado": "Disponible",
-      "descripcion": "desc",
-      "imagen1": "../assets/Img/luna1",
-      "imagen2": "../assets/Img/luna2",
-      "imagen3": "../assets/Img/luna3"
-    },
-    {
-      "id": 13,
-      "nombre": "Flora",
-      "especie": "Conejo",
-      "estado": "Disponible",
-      "descripcion": "desc",
-      "imagen1": "../assets/Img/flora1",
-      "imagen2": "../assets/Img/flora2",
-      "imagen3": "../assets/Img/flora3"
-    },
-    {
-      "id": 14,
-      "nombre": "Monty",
-      "especie": "Tortuga",
-      "estado": "Adoptado",
-      "descripcion": "desc",
-      "imagen1": "../assets/Img/monty1",
-      "imagen2": "../assets/Img/monty2",
-      "imagen3": "../assets/Img/monty3"
-    },
-    {
-      "id": 15,
-      "nombre": "Bella",
-      "especie": "Perro",
-      "estado": "Disponible",
-      "descripcion": "desc",
-      "imagen1": "../assets/Img/bella1",
-      "imagen2": "../assets/Img/bella2",
-      "imagen3": "../assets/Img/bella3"
-    },
-    {
-      "id": 16,
-      "nombre": "Mauricio",
-      "especie": "Ratón",
-      "estado": "Adoptado",
-      "descripcion": "desc",
-      "imagen1": "../assets/Img/jasper1",
-      "imagen2": "../assets/Img/jasper2",
-      "imagen3": "../assets/Img/jasper3"
-    },
-    {
-      "id": 17,
-      "nombre": "Penny",
-      "especie": "Cebra",
-      "estado": "Disponible",
-      "descripcion": "desc",
-      "imagen1": "../assets/Img/penny1",
-      "imagen2": "../assets/Img/penny2",
-      "imagen3": "../assets/Img/penny3"
-    },
-    {
-      "id": 18,
-      "nombre": "Nina",
-      "especie": "Loro",
-      "estado": "Disponible",
-      "descripcion": "desc",
-      "imagen1": "../assets/Img/nina1",
-      "imagen2": "../assets/Img/nina2",
-      "imagen3": "../assets/Img/nina3"
-    },
-    {
-      "id": 19,
-      "nombre": "Thor",
-      "especie": "Iguana",
-      "estado": "Adoptado",
-      "descripcion": "desc",
-      "imagen1": "../assets/Img/thor1",
-      "imagen2": "../assets/Img/thor2",
-      "imagen3": "../assets/Img/thor3"
-    },
-    {
-      "id": 20,
-      "nombre": "Zoe",
-      "especie": "Conejo",
-      "estado": "Disponible",
-      "descripcion": "desc",
-      "imagen1": "../assets/Img/zoe1",
-      "imagen2": "../assets/Img/zoe2",
-      "imagen3": "../assets/Img/zoe3"
-    },
-    {
-      "id": 21,
-      "nombre": "Oscar",
-      "especie": "Perro",
-      "estado": "Adoptado",
-      "descripcion": "desc",
-      "imagen1": "../assets/Img/oscar1",
-      "imagen2": "../assets/Img/oscar2",
-      "imagen3": "../assets/Img/oscar3"
-    },
-    {
-      "id": 22,
-      "nombre": "Simba",
-      "especie": "León",
-      "estado": "Disponible",
-      "descripcion": "desc",
-      "imagen1": "../assets/Img/simba1",
-      "imagen2": "../assets/Img/simba2",
-      "imagen3": "../assets/Img/simba3"
-    },
-    {
-      "id": 23,
-      "nombre": "Tina",
-      "especie": "Canguro",
-      "estado": "Disponible",
-      "descripcion": "desc",
-      "imagen1": "../assets/Img/tina1",
-      "imagen2": "../assets/Img/tina2",
-      "imagen3": "../assets/Img/tina3"
-    },
-    {
-      "id": 24,
-      "nombre": "Flavio",
-      "especie": "Pato",
-      "estado": "Disponible",
-      "descripcion": "desc",
-      "imagen1": "../assets/Img/flavio1",
-      "imagen2": "../assets/Img/flavio2",
-      "imagen3": "../assets/Img/flavio3"
-    },
-    {
-      "id": 25,
-      "nombre": "Eleanor",
-      "especie": "Hurón",
-      "estado": "Disponible",
-      "descripcion": "desc",
-      "imagen1": "../assets/Img/eleanor1",
-      "imagen2": "../assets/Img/eleanor2",
-      "imagen3": "../assets/Img/eleanor3"
-    },
-    {
-      "id": 26,
-      "nombre": "Basil",
-      "especie": "Tortuga",
-      "estado": "Adoptado",
-      "descripcion": "desc",
-      "imagen1": "../assets/Img/basil1",
-      "imagen2": "../assets/Img/basil2",
-      "imagen3": "../assets/Img/basil3"
-    },
-    {
-      "id": 27,
-      "nombre": "Maya",
-      "especie": "Gato",
-      "estado": "Disponible",
-      "descripcion": "desc",
-      "imagen1": "../assets/Img/maya1",
-      "imagen2": "../assets/Img/maya2",
-      "imagen3": "../assets/Img/maya3"
-    },
-    {
-      "id": 28,
-      "nombre": "Ruby",
-      "especie": "Perro",
-      "estado": "Adoptado",
-      "descripcion": "desc",
-      "imagen1": "../assets/Img/ruby1",
-      "imagen2": "../assets/Img/ruby2",
-      "imagen3": "../assets/Img/ruby3"
-    },
-    {
-      "id": 29,
-      "nombre": "Rex",
-      "especie": "Gato",
-      "estado": "Disponible",
-      "descripcion": "desc",
-      "imagen1": "../assets/Img/rex1",
-      "imagen2": "../assets/Img/rex2",
-      "imagen3": "../assets/Img/rex3"
-    },
-    {
-      "id": 30,
-      "nombre": "Rocky",
-      "especie": "Perro",
-      "estado": "Adoptado",
-      "descripcion": "desc",
-      "imagen1": "../assets/Img/rocky1",
-      "imagen2": "../assets/Img/rocky2",
-      "imagen3": "../assets/Img/rocky3"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "nombre": "Juan",
+    "especie": "Caballo",
+    "estado": "Disponible",
+    "descripcion": "Un agradable caballo al cual le gusta mirar la calle desde las alturas, no es especialmente cariñoso pero tampoco arisco.",
+    "imagen1": "/Img/juan1.jpg",
+    "imagen2": "/Img/juan2.jpg",
+    "imagen3": "/Img/juan3.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Pedro",
+    "especie": "Mapache",
+    "estado": "Adoptado",
+    "descripcion": "Un mapache bailarin, es todo un fiestero, le gusta la musica tecno y bailar alzando las manos.",
+    "imagen1": "/Img/pedro1.jpg",
+    "imagen2": "/Img/pedro2.jpg",
+    "imagen3": "/Img/pedro3.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Lacoste",
+    "especie": "Cocodrilo",
+    "estado": "Disponible",
+    "descripcion": "El chico mas cariñoso de la protectora, pero no le gusta que le toquen la boca y a veces muerde en sueños.",
+    "imagen1": "/Img/lacoste1.jpg",
+    "imagen2": "/Img/lacoste2.jpg",
+    "imagen3": "/Img/lacoste3.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Merkat",
+    "especie": "Zariguella",
+    "estado": "Perdida",
+    "descripcion": "Se acercó demasiado a Lacoste mientras dormia, descansa en paz.",
+    "imagen1": "/Img/merkat1.jpg",
+    "imagen2": "/Img/merkat2.jpg",
+    "imagen3": "/Img/merkat3.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Capibara",
+    "especie": "Capibara",
+    "estado": "Disponible",
+    "descripcion": "El mejor amigo de Lacoste, les gusta tumbarse juntos a tomar el sol y descansar, es muy majo.",
+    "imagen1": "/Img/chispa1.jpg",
+    "imagen2": "/Img/chispa2.jpg",
+    "imagen3": "/Img/chispa3.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Peko",
+    "especie": "Erizo",
+    "estado": "Disponible",
+    "descripcion": "desc",
+    "imagen1": "/Img/puas1.jpg",
+    "imagen2": "/Img/puas2.jpg",
+    "imagen3": "/Img/puas3.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Sasha",
+    "especie": "Serpiente",
+    "estado": "Disponible",
+    "descripcion": "La chica mimada de la protectora, a veces se pierde, pero en ese caso lo mejor es mirar dentro del baño. Le gustan los besos, a veces con dientes, y sobretodo le gustan los abrazos alrededor del cuello.",
+    "imagen1": "/Img/sasha1.jpg",
+    "imagen2": "/Img/sasha2.jpg",
+    "imagen3": "/Img/sasha3.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Arachne",
+    "especie": "Araña",
+    "estado": "Adoptado",
+    "descripcion": "desc",
+    "imagen1": "/Img/arachne1.jpg",
+    "imagen2": "/Img/arachne2.jpg",
+    "imagen3": "/Img/arachne3.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Zeus",
+    "especie": "Serpiente",
+    "estado": "Disponible",
+    "descripcion": "desc",
+    "imagen1": "/Img/zeus1.jpg",
+    "imagen2": "/Img/zeus2.jpg",
+    "imagen3": "/Img/zeus3.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "Rocco",
+    "especie": "Hámster",
+    "estado": "Disponible",
+    "descripcion": "desc",
+    "imagen1": "/Img/rocco1.jpg",
+    "imagen2": "/Img/rocco2.jpg",
+    "imagen3": "/Img/rocco3.jpg"
+  },
+  {
+    "id": 11,
+    "nombre": "Kiko",
+    "especie": "Pájaro",
+    "estado": "Adoptado",
+    "descripcion": "desc",
+    "imagen1": "/Img/kiko1.jpg",
+    "imagen2": "/Img/kiko2.jpg",
+    "imagen3": "/Img/kiko3.jpg"
+  },
+  {
+    "id": 12,
+    "nombre": "Luna",
+    "especie": "Gato",
+    "estado": "Disponible",
+    "descripcion": "desc",
+    "imagen1": "/Img/luna1.jpg",
+    "imagen2": "/Img/luna2.jpg",
+    "imagen3": "/Img/luna3.jpg"
+  },
+  {
+    "id": 13,
+    "nombre": "Flora",
+    "especie": "Conejo",
+    "estado": "Disponible",
+    "descripcion": "desc",
+    "imagen1": "/Img/flora1.jpg",
+    "imagen2": "/Img/flora2.jpg",
+    "imagen3": "/Img/flora3.jpg"
+  },
+  {
+    "id": 14,
+    "nombre": "Monty",
+    "especie": "Tortuga",
+    "estado": "Adoptado",
+    "descripcion": "desc",
+    "imagen1": "/Img/monty1.jpg",
+    "imagen2": "/Img/monty2.jpg",
+    "imagen3": "/Img/monty3.jpg"
+  },
+  {
+    "id": 15,
+    "nombre": "Bella",
+    "especie": "Perro",
+    "estado": "Disponible",
+    "descripcion": "desc",
+    "imagen1": "/Img/bella1.jpg",
+    "imagen2": "/Img/bella2.jpg",
+    "imagen3": "/Img/bella3.jpg"
+  },
+  {
+    "id": 16,
+    "nombre": "Mauricio",
+    "especie": "Ratón",
+    "estado": "Adoptado",
+    "descripcion": "desc",
+    "imagen1": "/Img/jasper1.jpg",
+    "imagen2": "/Img/jasper2.jpg",
+    "imagen3": "/Img/jasper3.jpg"
+  },
+  {
+    "id": 17,
+    "nombre": "Penny",
+    "especie": "Cebra",
+    "estado": "Disponible",
+    "descripcion": "desc",
+    "imagen1": "/Img/penny1.jpg",
+    "imagen2": "/Img/penny2.jpg",
+    "imagen3": "/Img/penny3.jpg"
+  },
+  {
+    "id": 18,
+    "nombre": "Nina",
+    "especie": "Loro",
+    "estado": "Disponible",
+    "descripcion": "desc",
+    "imagen1": "/Img/nina1.jpg",
+    "imagen2": "/Img/nina2.jpg",
+    "imagen3": "/Img/nina3.jpg"
+  },
+  {
+    "id": 19,
+    "nombre": "Thor",
+    "especie": "Iguana",
+    "estado": "Adoptado",
+    "descripcion": "desc",
+    "imagen1": "/Img/thor1.jpg",
+    "imagen2": "/Img/thor2.jpg",
+    "imagen3": "/Img/thor3.jpg"
+  },
+  {
+    "id": 20,
+    "nombre": "Zoe",
+    "especie": "Conejo",
+    "estado": "Disponible",
+    "descripcion": "desc",
+    "imagen1": "/Img/zoe1.jpg",
+    "imagen2": "/Img/zoe2.jpg",
+    "imagen3": "/Img/zoe3.jpg"
+  },
+  {
+    "id": 21,
+    "nombre": "Oscar",
+    "especie": "Perro",
+    "estado": "Adoptado",
+    "descripcion": "desc",
+    "imagen1": "/Img/oscar1.jpg",
+    "imagen2": "/Img/oscar2.jpg",
+    "imagen3": "/Img/oscar3.jpg"
+  },
+  {
+    "id": 22,
+    "nombre": "Simba",
+    "especie": "León",
+    "estado": "Disponible",
+    "descripcion": "desc",
+    "imagen1": "/Img/simba1.jpg",
+    "imagen2": "/Img/simba2.jpg",
+    "imagen3": "/Img/simba3.jpg"
+  },
+  {
+    "id": 23,
+    "nombre": "Tina",
+    "especie": "Canguro",
+    "estado": "Disponible",
+    "descripcion": "desc",
+    "imagen1": "/Img/tina1.jpg",
+    "imagen2": "/Img/tina2.jpg",
+    "imagen3": "/Img/tina3.jpg"
+  },
+  {
+    "id": 24,
+    "nombre": "Flavio",
+    "especie": "Pato",
+    "estado": "Disponible",
+    "descripcion": "desc",
+    "imagen1": "/Img/flavio1.jpg",
+    "imagen2": "/Img/flavio2.jpg",
+    "imagen3": "/Img/flavio3.jpg"
+  },
+  {
+    "id": 25,
+    "nombre": "Eleanor",
+    "especie": "Hurón",
+    "estado": "Disponible",
+    "descripcion": "desc",
+    "imagen1": "/Img/eleanor1.jpg",
+    "imagen2": "/Img/eleanor2.jpg",
+    "imagen3": "/Img/eleanor3.jpg"
+  },
+  {
+    "id": 26,
+    "nombre": "Basil",
+    "especie": "Tortuga",
+    "estado": "Adoptado",
+    "descripcion": "desc",
+    "imagen1": "/Img/basil1.jpg",
+    "imagen2": "/Img/basil2.jpg",
+    "imagen3": "/Img/basil3.jpg"
+  },
+  {
+    "id": 27,
+    "nombre": "Maya",
+    "especie": "Gato",
+    "estado": "Disponible",
+    "descripcion": "desc",
+    "imagen1": "/Img/maya1.jpg",
+    "imagen2": "/Img/maya2.jpg",
+    "imagen3": "/Img/maya3.jpg"
+  },
+  {
+    "id": 28,
+    "nombre": "Ruby",
+    "especie": "Perro",
+    "estado": "Adoptado",
+    "descripcion": "desc",
+    "imagen1": "/Img/ruby1.jpg",
+    "imagen2": "/Img/ruby2.jpg",
+    "imagen3": "/Img/ruby3.jpg"
+  },
+  {
+    "id": 29,
+    "nombre": "Rex",
+    "especie": "Gato",
+    "estado": "Disponible",
+    "descripcion": "desc",
+    "imagen1": "/Img/rex1.jpg",
+    "imagen2": "/Img/rex2.jpg",
+    "imagen3": "/Img/rex3.jpg"
+  },
+  {
+    "id": 30,
+    "nombre": "Rocky",
+    "especie": "Perro",
+    "estado": "Adoptado",
+    "descripcion": "desc",
+    "imagen1": "/Img/rocky1.jpg",
+    "imagen2": "/Img/rocky2.jpg",
+    "imagen3": "/Img/rocky3.jpg"
+  }
+]

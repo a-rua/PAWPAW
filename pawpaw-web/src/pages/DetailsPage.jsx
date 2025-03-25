@@ -13,13 +13,14 @@ export const DetailsPage = () => {
         </>)
     }
 
+    console.log(animal.imagen1)
 
     return (
         <>
             <div id="detailsBody">
                 <div id="detailsContainer">
                     <div id="detailsImagen">
-                        <img src={animal.imagen1} />
+                        <img src={`${animal.imagen1}`} />
                     </div>
                     <div id="detailsColumn">
                         <div id="detailsTitle">

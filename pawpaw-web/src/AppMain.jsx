@@ -1,6 +1,6 @@
-import logo from './assets/Img/logoSinLetra.png'
-import logoBig from './assets/Img/logoSinLetraBig.png'
-import logoBlack from './assets/Img/pataPerro.png'
+import logo from '/Img/logoSinLetra.png'
+import logoBig from '/Img/logoSinLetraBig.png'
+import logoBlack from '/Img/pataPerro.png'
 
 import { Navbar } from "./components/Navbar"
 import { Footer } from "./components/Footer"
