@@ -1,7 +1,8 @@
 /* MARGENES IZQUIERDA DERECHA */
 
 
-html, body {
+html,
+body {
     background-color: #ffd991;
     height: 100%;
     margin: 0;
@@ -42,7 +43,7 @@ html, body {
     border-right: 1px solid black;
     border-left: 1px solid black;
     border-color: white;
-    
+
 }
 
 /* FIN NAVBAR */
@@ -53,7 +54,7 @@ html, body {
 .imageContainer {
     /* border: 2px solid black; */
     width: 100%;
-    height: 600px;
+    height: 633px;
     background-color: #fffbf3;
 }
 
@@ -93,7 +94,7 @@ html, body {
 
 .cambios-carousel {
     display: flex;
-    width: 100%; 
+    width: 100%;
     transition: transform 1s ease-in-out;
 }
 
@@ -124,7 +125,7 @@ html, body {
     background-size: cover;
     height: 100%;
     /* width: 100%; */
-    
+
 }
 
 a {
@@ -188,7 +189,7 @@ a {
     padding-right: 15px;
     width: 100%;
     height: 20%;
-    
+
 }
 
 .contenedor-carousel .card-bottom button {
@@ -280,13 +281,13 @@ a {
     text-align: center;
     margin-left: 15%;
     margin-right: 15%;
-    
+
 }
 
 .text-container {
     margin: 5%;
     margin-top: 50px;
-    
+
 }
 
 .text-container h1 {
@@ -342,7 +343,7 @@ a {
 }
 
 #detailsBody {
-    background-color: #ffd991; 
+    background-color: #ffd991;
     min-height: 100vh;
     width: 100vw;
     display: flex;
@@ -366,21 +367,24 @@ a {
 }
 
 #detailsImagen {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    
     width: 65%;
     margin-right: 15px;
 
     background-color: #f8f9fa;
     border-radius: 7px;
     overflow: hidden;
+   
 }
 
 #detailsImagen img {
-    
-    height: 100%;
 
+    height: 100%;
     justify-content: center;
     
+
 }
 
 #detailsColumn {
@@ -393,7 +397,7 @@ a {
     padding-left: 7px;
     padding-top: 20px;
     height: 20%;
-   
+
 }
 
 #detailsEspecie {
@@ -408,9 +412,9 @@ a {
     margin-right: 10%;
 }
 
-#detailsButton  {
+#detailsButton {
     height: 20%;
-    
+
 }
 
 #detailsButton button {
@@ -419,22 +423,40 @@ a {
     align-items: center;
     margin-top: 30px;
     margin-left: 15px
-    
 }
 
+@media (max-width: 1100px) {
 
-@media (max-width: 500px) {
-    
-    
-    
     .gridCard {
         display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: auto auto;
+        place-items: center;
     }
 
     .gridCard .body-card {
+        
         height: 370px;
-        width: 300px;
+        width: 90%;
+    }
+
+
+}
+
+
+@media (max-width: 776px) {
+
+
+
+    .gridCard {
+        display: grid;
+        grid-template-columns: auto;
+        place-items: center;
+    }
+
+    .gridCard .body-card {
+        
+        height: 370px;
+        width: 90%;
     }
 
 

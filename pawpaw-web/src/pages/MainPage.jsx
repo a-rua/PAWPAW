@@ -3,7 +3,10 @@ import { Carousel } from "../components/Carousel"
 
 export const MainPage = ({ logo }) => (
     <>
-        <div className="imageContainer"><img src={logo} /></div>
+        <div className="imageContainer">
+            <img src={logo} />
+            <div className="imageContainerBar" />
+        </div>
         <div className="bg-column">
             <div className="cont">
                 <Carousel />
